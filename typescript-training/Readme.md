@@ -1,12 +1,19 @@
-Type script file name is :
+### Type script file name is :
 
 myFile.ts
 
-compile with: tsc myFile.ts
+### compile with: 
 
-We will get js genrated file will be with the name- myFile.js
+tsc myFile.ts
 
-Run with :node myFile.js
+### Now we will get the .js generated file,  To  run the .js file with :
 
-NOTE: tsc --noEmitOnError myFile.ts   // If we do not want to create .js file when there is error in .ts file
-NOTE: tsc --target es5 myFile.ts      // if we want to use accessors
+node myFile.js
+
+### NOTE: If we do not want to create .js file when there is error in .ts file
+
+tsc --noEmitOnError myFile.ts
+
+### NOTE: tsc --target es5 myFile.ts
+
+if we want to use accessors
