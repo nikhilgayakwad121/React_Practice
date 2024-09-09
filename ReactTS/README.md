@@ -7,3 +7,6 @@ npm install --save typescript @types/node @types/react @types/react-dom @types/j
 .tsx is typescript version of jsx file which render doms
 
 ### Then we need tsconfig.json file for compiler option and "jsx": "react-jsx" to run as react.
+
+
+We need to refactor code to typescript if not...
