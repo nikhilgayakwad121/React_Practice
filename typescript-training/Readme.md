@@ -1,6 +1,12 @@
-### Type script file name is :
+### Type script :
 
 myFile.ts
+
+Check the TypeScript version with:
+tsc --version
+
+if you're using an outdated version, upgrade TypeScript by running:
+npm install -g typescript
 
 ### compile with: 
 
@@ -17,3 +23,9 @@ tsc --noEmitOnError myFile.ts
 ### NOTE: if we want to use accessors
 
 tsc --target es5 myFile.ts 
+
+To generate the tsconfig.json file
+
+npx tsc --init
+
+
