@@ -14,6 +14,6 @@ node myFile.js
 
 tsc --noEmitOnError myFile.ts
 
-### NOTE: tsc --target es5 myFile.ts
+### NOTE: if we want to use accessors
 
-if we want to use accessors
+tsc --target es5 myFile.ts 
